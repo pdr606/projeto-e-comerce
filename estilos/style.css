@@ -16,6 +16,10 @@ header{
     
 }
 
+body{
+    background-color: #1d1d1f;
+}
+
 .container-header{
     display: flex;
     align-items: center;
@@ -170,13 +174,14 @@ h3{
     justify-content: center;
     color: black;
     padding: 5px;
+    font-weight: bold;
 
 
 }
 
 footer{
-    background-color: #1d1d1f;
-    height: 80px;
+    background-color: #000000;
+    height: 140px;
 }
 
 .container-footer{
@@ -187,4 +192,57 @@ footer{
     padding: 20px;
     font-size: 13px;
     gap: 200px;
+}
+
+.contato{
+    background: linear-gradient(orange, rgb(226, 164, 48), rgb(182, 132, 40));
+    text-align: center;
+    height: 250px;
+    max-width: 500px;
+    margin: auto;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 20px;
+
+}
+
+.formas-de-contato p{
+    
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.formas-de-contato p a{
+    border-radius: 5px;
+    background-color: #1d1d1f;
+    padding: 15px;
+    text-decoration: none;
+    color: white
+}
+
+.formas-de-contato p a span{
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+.formas-de-contato a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+/* Mobile */
+
+@media (max-width: 450px) {
+    .container-header{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+
+    }
 }
