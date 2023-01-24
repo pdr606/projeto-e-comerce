@@ -12,7 +12,6 @@ header{
     text-align: center;
     padding: 15px;
     color: #fff;
-    display: flex;
     margin: auto;
     border-left: 2px solid orange;
     border-right: 2px solid orange;
@@ -25,16 +24,39 @@ h1{
     text-shadow: 2px 2px 2px black;
 }
 
-.since{
-    align-items: center;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px black
+
+
+.menu{
+    display: flex;
+    gap: 30px;
+
+    
+}
+
+
+.menu ul{
+    list-style: none;
+    padding-left: 20px;
+    border-left: 1px solid white;
+    
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: orange;
+}
+
+.section-semini-novos{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(243, 183, 71);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
 .container{
     background-color: #1d1d1ff5;
-    max-height: 120vh;
+    max-height: 100%;
     padding: 50px;
 }
 
@@ -77,29 +99,42 @@ h1{
 }
 
 #img-4{
-    background-image: url(../img/iphone-12-pro-max.jpg);
+    background-image: url(../img/iphone-xr-600x600.png);
 }
 
 #img-5{
-    background-image: url(../img/iphone-13.jpg);
+    background-image: url(../img/iphone-8-plus-600x600.png);
 }
 
 #img-6{
-    background-image: url(../img/iphone-14.jpg);
+    background-image: url(../img/iphone-11-pro-max-600x600.png);
 }
 
 h3{
     color: orange;
-    font-size: 24px;
+    font-size: 21px;
     margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    font-weight: bold;
 }
 
 .card p{
     margin-bottom: 10px;
 }
 
+.more-size{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.815);
+}
+
 .bold {
     font-weight: bold;
+    color: white;
 }
 
 .bold-1 {
