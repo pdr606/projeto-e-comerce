@@ -16,7 +16,7 @@ header{
 
 .container{
     background-color: #eee;
-    max-height: 60vh;
+    max-height: 120vh;
     padding: 50px;
 }
 
@@ -24,8 +24,85 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    gap: 150px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card{
+    width:31%;
+    margin: 1% 1%;
+    padding: 15px;
+    
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url(../img/iphone-8-plus.jpg);
+}
+
+#img-2{
+    background-image: url(../img/iphone-11.jpg);
+}
+
+#img-3{
+    background-image: url(../img/iphone-12.jpg);
+}
+
+#img-4{
+    background-image: url(../img/iphone-12-pro-max.jpg);
+}
+
+#img-5{
+    background-image: url(../img/iphone-13.jpg);
+}
+
+#img-6{
+    background-image: url(../img/iphone-14.jpg);
+}
+
+h3{
+    color: #3db36b;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    background-color: #3db36b;
+    color: #fff;
+    border-top: 3px solid #0f642f;
+    text-align: center;
+    padding: 30px;
 }
 
