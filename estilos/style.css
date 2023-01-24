@@ -9,21 +9,24 @@
 
 header{
     background-color: #1d1d1f;
-    text-align: center;
     padding: 15px;
     color: #fff;
-    margin: auto;
     border-left: 2px solid orange;
     border-right: 2px solid orange;
     
 }
 
-h1{
-    margin: auto;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
+.container-header{
+    display: flex;
+    align-items: center;
+    gap: 200px;
 }
 
+
+h1{
+
+    text-shadow: 2px 2px 2px black;
+}
 
 
 .menu{
@@ -159,13 +162,29 @@ h3{
     color: white;
 }
 
+.mid-page{
+    background: linear-gradient(orange, rgb(226, 164, 48), rgb(182, 132, 40));
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: black;
+    padding: 5px;
 
 
-footer{
-    background-color: #3db36b;
-    color: #fff;
-    border-top: 3px solid #0f642f;
-    text-align: center;
-    padding: 30px;
 }
 
+footer{
+    background-color: #1d1d1f;
+    height: 80px;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-size: 13px;
+    gap: 200px;
+}
